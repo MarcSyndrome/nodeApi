@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Users</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+        <a class="navbar-brand" href="">Test JS API</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Users/admin/Documents/JS/TP-alex/web/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Users/admin/Documents/JS/TP-alex/web/views/login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Users/admin/Documents/JS/TP-alex/web/views/signUp.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Start table -->
+    <div class="d-flex justify-content-center">
+        <table style="border: 3px solid rgb(35, 20, 90);" class="m-5" id="tableUser">
+            <tr style="border-bottom: 1px solid blue;">
+                <th class="px-4">Name</th>
+                <th class="px-4">Age</th>
+                <th class="px-4">Salary</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="../assets/js/fctDisplayUsers.js"></script>
+
+</html>
